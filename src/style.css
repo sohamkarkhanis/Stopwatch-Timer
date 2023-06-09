@@ -1,0 +1,139 @@
+body {
+	font-family: "Helvetica", sans-serif;
+	background-color: #141414;
+	color: #f8f5f2;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	column-gap: 15vh;
+	align-items: center;
+	justify-content: center;
+	min-height: 20vh;
+	text-align: center;
+	margin-top: 10vh;
+}
+
+.title {
+	font-family: "Helvetica", sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.stopwatch-card,
+.timer-card {
+	background-color: #141414;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	height: 50vh;
+	align-items: center;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0c0c0c;
+	margin: auto;
+	min-width: 80vh;
+}
+
+.stopwatch-timer,
+.timer-timer {
+	font-family: "Helvetica", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #f8f5f2;
+	align-items: center;
+}
+
+.timer-time {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.timer-input {
+	font-family: "Helvetica", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #141414;
+	padding: 8px 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 7px;
+	text-align: left;
+	min-width: 20vh;
+	align-items: center;
+}
+
+.stopwatch-buttons {
+	margin-top: 52px;
+}
+
+.button {
+	font-family: "Helvetica", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 550;
+	text-transform: uppercase;
+	color: #f8f5f2;
+	background-color: #e05215;
+	opacity: 85%;
+	border: none;
+	border-radius: 10px;
+	margin-inline: 5px;
+	padding: 15px 20px;
+	margin-top: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	text-align: justify;
+	padding-top: 3.1%;
+}
+
+.button:hover {
+	opacity: 100%;
+}
+
+.author-info {
+	font-size: 100px;
+	color: #f8f5f2;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.author-info p {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.author-info a {
+	font-size: 16px;
+}
+
+.project-link {
+	text-decoration: none;
+	color: #ebcb8b;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.project-link:hover {
+	color: #f8f5f2;
+}
